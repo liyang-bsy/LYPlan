@@ -40,4 +40,9 @@ public abstract class TimerJob extends TimerTask {
 	 */
 	public abstract Integer getInterval();
 
+	/**
+	 * Override this method to perform your task!
+	 */
+	public abstract void run();
+
 }
