@@ -30,11 +30,17 @@ Release under LGPL license, consult your right before using.
 
 ### Java
 >extends TimerJob and complete some methods:
+>
 >1.Tell Plan when this job start to work.
+>
 >>public Date getStartTime();
+>
 >2.Tell Plan how long should this job work again
+>
 >>public Integer getInterval();
+>
 >3.Override this method to perform your task!
+>
 >>public void run();
 
 ## Reading Finished? Freak out!
