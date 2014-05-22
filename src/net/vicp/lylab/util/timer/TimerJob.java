@@ -7,8 +7,8 @@ import java.util.TimerTask;
  * 
  * @author Young Lee
  * 
- * 	Extends TimerJob and reference to Plan(manager class).
- * 	Override run() to satisfy your needs.
+ * 	Extends TimerJob and reference to Plan(manage class).<br>
+ * 	Override run() to satisfy your needs.<br>
  * 
  * 	Release Under GNU Lesser General Public License (LGPL).
  * 
@@ -27,15 +27,15 @@ public abstract class TimerJob extends TimerTask {
 	protected static final int WEEK = 7*DAY;
 	
 	/**
-	 * Tell Plan when this job start to work.
+	 * Tell Plan when this job start to work.<br>
 	 * If the date is past, run() will be called immediately.
 	 * 
 	 * @return Date that this schedule will be first called
 	 */
 	public abstract Date getStartTime();
 	/**
-	 * Tell Plan how long should this job work again. i.e. this job will work repeatedly every a specific period since start time
-	 * @return ONE_TIME_TASK/n*MILLISECOND/n*SECOND/n*MINUTE/n*HOUR/n*DAY/n*WEEK
+	 * Tell Plan how long should this job work again.<br>i.e. this job will work repeatedly every a specific period since start time
+	 * @return ONE_TIME_TASK/n*MILLISECOND/n*SECOND/n*MINUTE/n*HOUR/n*DAY/n*WEEK<br>
 	 * For Example: 3*HOUR + 16*MINUTE
 	 */
 	public abstract Integer getInterval();

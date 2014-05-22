@@ -12,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * 
  * @author Young Lee
  * 
- * 	LYPlan is a tiny schedule framework, could be apply to multitude purpose.
+ * 	LYPlan is a tiny schedule framework, could be apply to multitude purpose.<br>
  * 
  * 	Release Under GNU Lesser General Public License (LGPL).
  * 
