@@ -17,7 +17,7 @@ Release under LGPL license, consult your rights before using.
 		</servlet-mapping>
 	
 	Setup your timer jobs like below in applicationContext.xml:
-		<bean name="testjob" class="***.***.timer.AvgComment" scope="prototype" />
+		<bean name="testjob" class="***.***.timer.Testjob" scope="prototype" />
 	 
 	Setup Plan as beans like below in applicationContext.xml:
 		<bean name="plan" class="net.vicp.lylab.util.timer.Plan" scope="prototype">
