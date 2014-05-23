@@ -1,6 +1,6 @@
 #LYPlan
-=====
-Release under LGPL license, consult your right before using.
+
+Release under LGPL license, consult your rights before using.
 
 ##How to use
 
